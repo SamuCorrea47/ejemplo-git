@@ -9,11 +9,11 @@ public class Ventana extends JFrame {
 	public Ventana() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(320,420);
-		setTitle("Prueba Git");
+		setTitle("Ventanita");
 		
 		setVisible(true);
 	}
 	public static void main(String[] args) {
-		
+		new Ventana();
 	}
 }
